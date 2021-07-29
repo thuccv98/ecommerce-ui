@@ -27,7 +27,7 @@
             <img src="images/logo.png" width="125px" />
           </div>
           <nav>
-            <ul>
+            <ul id="menuitems">
               <li><a href="">Home</a></li>
               <li><a href="">Products</a></li>
               <li><a href="">About</a></li>
@@ -36,6 +36,11 @@
             </ul>
           </nav>
           <img src="./images/cart.png" width="30px" height="30px" />
+          <img
+            src="./images/menu.png"
+            class="menu-icon"
+            onclick="onMenuToggle()"
+          />
         </div>
         <div class="row">
           <div class="row__col-2">
@@ -369,5 +374,16 @@
         <p class="copyright">Copyright 2021 - Thuc Cao</p>
       </div>
     </div>
+    <!-- ---------------js for toggle menu------------- -->
+    <script>
+      const menuItems = document.getElementById('menuitems');
+      menuItems.style.maxHeight = '0px';
+
+      function onMenuToggle() {
+        menuItems.style.maxHeight == '0px'
+          ? (menuItems.style.maxHeight = '200px')
+          : (menuItems.style.maxHeight = '0px');
+      }
+    </script>
   </body>
 </html>

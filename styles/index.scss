@@ -16,3 +16,15 @@ body {
 @import 'testimonial';
 @import 'brands';
 @import 'footer';
+
+// media query for less than 600 screen size
+@media only screen and (max-width: 600px) {
+  .row {
+    text-align: center;
+    .row__col-2,
+    .row__col-3,
+    .row__col-4 {
+      flex-basis: 100%;
+    }
+  }
+}
