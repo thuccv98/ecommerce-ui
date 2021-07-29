@@ -240,4 +240,24 @@ body {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
+
+.brands {
+  margin: 100px auto;
+}
+
+.brands .row__col-5 {
+  width: 160px;
+}
+
+.brands .row__col-5 img {
+  width: 100%;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.brands .row__col-5 img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
 /*# sourceMappingURL=index.css.map */
