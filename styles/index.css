@@ -123,4 +123,59 @@ body {
   margin: auto;
   padding: 0 25px;
 }
+
+.row__col-4 {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.row__col-4 img {
+  width: 100%;
+}
+
+.row__col-4 h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.row__col-4 p {
+  font-size: 14px;
+}
+
+.row__col-4 .row__col-4__rating .fa {
+  color: #ff523b;
+}
+
+.row__col-4:hover {
+  -webkit-transform: translateY(-5%);
+          transform: translateY(-5%);
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title::after {
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
 /*# sourceMappingURL=index.css.map */
