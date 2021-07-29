@@ -1,6 +1,0 @@
-*{
-  margin: 0;
-  padding: 0;
-  /* đặt kích thước theo border box để dễ quản lý kích thước hơn, mặc định là content-box */
-  box-sizing: border-box; 
-}
