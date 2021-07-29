@@ -8,7 +8,9 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+// import components
 @import 'header';
 @import 'categories';
 @import 'products';
 @import 'offer';
+@import 'testimonial';

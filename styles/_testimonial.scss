@@ -1,0 +1,36 @@
+.testimonial {
+  padding-top: 10px;
+  .row__col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+    img {
+      width: 50px;
+      margin-top: 20px;
+      border-radius: 50%;
+    }
+    p {
+      color: #555;
+      font-size: 12px;
+      margin: 12px 0;
+    }
+    h3 {
+      font-weight: 600;
+      color: #555;
+      font-size: 16px;
+    }
+    .row__col-4__rating {
+      .fa {
+        color: #ff523b;
+      }
+    }
+    .fa-quote-left {
+      font-size: 34px;
+      color: #ff523b;
+    }
+  }
+  .row__col-3:hover {
+    transform: translateY(-10px);
+  }
+}
